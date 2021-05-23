@@ -1,0 +1,43 @@
+
+
+form{
+	font-size: 20px;
+	background: white;
+	width: 350px;
+	height: 300px;
+	border: 3px solid rgb(34, 34, 36);
+	border-radius: 20px;
+	position: relative;
+	top: 200px;
+}
+label{
+	font-size: 20px;
+	display: block;
+	width: 100px;
+	position: relative;
+	right: 125px;
+}
+input{
+	margin-bottom: 30px;
+}
+#usuario{
+	position: relative;
+	right: 80px;
+}
+input[type="submit"]{
+	border-radius: 20px;
+	background: #1717f1;
+	color: rgb(10, 9, 9);
+	border: 5px;
+	width:150px;
+	position: relative;
+	top: 50px;
+}
+a{
+	position: relative;
+	bottom: 5px;
+	right: 50px;
+}
+input:hover{
+	background: rgb(145, 182, 236);
+}
