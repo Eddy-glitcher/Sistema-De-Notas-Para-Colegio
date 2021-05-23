@@ -26,7 +26,7 @@
 <section><br>
     <center><h1>Advanced School</h1></center>
     <div class="menu">
-        <a href="crearUsuario.php"><div class="alert alert-dismissible alert-info targeta">
+        <a href="creaciousuario.php"><div class="alert alert-dismissible alert-info targeta">
             <img src="../img/user.png" alt="">
             <strong>Crear Usuario</strong> 
         </div></a>

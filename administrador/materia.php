@@ -11,6 +11,15 @@
 
 </head>
 <body>
+    <?php
+    include("../conexion.php");
+    $conec = conectar();
+    $sql= "SELECT * FROM `materias`";
+    $datos = $conec->query($sql);
+    foreach ($datos as $datos1) {
+        echo $datos1["Mat_Nombre"];
+    }
+    ?>
     
 </body>
 </html>
