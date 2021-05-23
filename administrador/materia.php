@@ -7,6 +7,8 @@
     <title>Materia</title>
     <link rel="stylesheet" href="../css/bootstrap.css">
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="shortcut icon" href="../img/backpack.png" type="image/x-icon">
+
 </head>
 <body>
     

@@ -7,6 +7,7 @@
     <title>Vista Principal Estudiante</title>
     <link rel="stylesheet" href="../css/bootstrap.css">
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="shortcut icon" href="../img/backpack.png" type="image/x-icon">
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
@@ -26,15 +27,15 @@
     <center><h1>Advanced School</h1></center>
     <div class="menu">
         <a href="crearUsuario.php"><div class="alert alert-dismissible alert-info targeta">
-            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+            <img src="../img/user.png" alt="">
             <strong>Crear Usuario</strong> 
         </div></a>
         <a href="materia.php"><div class="alert alert-dismissible alert-info targeta">
-            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+            <img src="../img/libro.png" alt="">
             <strong>Materia</strong> 
         </div></a>
         <a href="notas.php"><div class="alert alert-dismissible alert-info targeta">
-         <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+            <img src="../img/editar.png" alt="">
             <strong>Modificar Notas</strong> 
         </div></a>
         
