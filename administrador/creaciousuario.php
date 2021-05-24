@@ -32,6 +32,11 @@
             <span class="visually-hidden">(current)</span>
           </a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="../cerrar.php">Cerrar
+            <span class="visually-hidden">(current)</span>
+          </a>
+        </li>   
 
 </ul>
       
@@ -165,9 +170,9 @@ if(isset($_GET['creacion'])){
   $direccion = $_POST["direccion"];
   $identificacion = $_POST['identificacion'];
   
-  $insertar = "INSERT usuarios(Usu_Nombre, Usu_Contraseña, Usu_Email) VALUES ('$usuario','$contrasena', '$correo')";
+  $insertar = "INSERT usuarios(Usu_Nombre, Usu_Contrasena, Usu_Email) VALUES ('$usuario','$contrasena', '$correo')";
     $ejecutarInsert = mysqli_query( $conec,$insertar);
-  if($insertar){
+  if($ejecutarInsert){
     $consultarR = "SELECT * FROM `usuarios` WHERE Usu_Email = '$correo'";
     $ejecutarR = mysqli_query($conec, $consultarR);
     while($fila = mysqli_fetch_array($ejecutarR)){

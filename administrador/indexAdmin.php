@@ -18,9 +18,19 @@
     </button>
 
     <div class="collapse navbar-collapse" id="navbarColor01">
-      
-      
-    </div>
+    <ul class="navbar-nav me-auto">
+    <li class="nav-item">
+          <a class="nav-link active" href="indexAdmin.php">Inicio
+            <span class="visually-hidden">(current)</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="../cerrar.php">Cerrar
+            <span class="visually-hidden">(current)</span>
+          </a>
+        </li>   
+ 
+    </ul> 
   </div>
 </nav>
 <section><br>
