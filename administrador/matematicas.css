@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: sans-serif;
+    background: #f2f2f2;
+}
+
+.container {
+    width: 800px;
+    background: #fff;
+    margin: 10em auto;
+    height: auto;
+}
+
+.container .flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .name {
+    margin: auto;
+    background: #064789;
+    padding: 20px;
+    text-align: center;
+    font-size: 1em;
+    color: #fff;
+}
+
+.container .estudiante {
+    font-size: 2em;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.container .alumnos,
+.notas {
+    width: 45%;
+}
+
+.container .alumnos,
+.notas .tnotas {
+    justify-content: space-between;
+    padding: 10px;
+    text-align: center;
+}
+
+.container .notas .tnotas span {
+    margin: 0px 30px;
+}
+
+.container .alumnos,
+.notas input {
+    width: 50px;
+    ;
+}
+
+.container .alumnos,
+.notas .titulo,
+.items {
+    text-align: center;
+}
+
+.Info {
+    display: flex;
+}
+
+.Info select {
+    margin: 10px 5px;
+}
+
+.mostrar {
+    padding: 10px 20px;
+}
