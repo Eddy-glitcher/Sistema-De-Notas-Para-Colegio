@@ -1,0 +1,1 @@
+# Sistema que permite mediante diferentes vistas administrar una base de datos que me permite ingresar administradores,estudiantes y docentes y posteriormente asignar notas,modificar o eliminar notas de cada estudiante y generar un reporte mediante FPDF.
